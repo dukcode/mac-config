@@ -1,0 +1,52 @@
+brew "mas"
+brew "git"
+brew "tmux"
+brew "neovim"
+brew "starship"
+
+
+# lunarvim  의존성
+brew "xz" # tar.xz 파일 푸는 프로그램,  파이썬 설치 시 필요
+brew "pyenv"
+brew "nvm"
+brew "rustup-init"
+
+# 보류
+# brew "lf"
+# brew "zoxide"
+# brew "exa"
+# brew "bat"
+# brew "fd"
+# brew "fzf"
+# brew "make"
+# brew "ripgrep"
+# brew "zsh-autosuggestions"
+# brew "zsh-history-substring-search"
+# brew "zsh-syntax-highlighting"
+
+mas "YouTube를 위한 UnTrap", id: 1637438059
+mas "유니콘:광고차단 필수앱", id: 1231935892
+mas "Auto HD + FPS for YouTube", id: 1546729687
+mas "Goodnotes 6", id: 1444383602
+mas "Hidden Bar", id: 1452453066
+mas "한컴오피스 한글 Viewer", id: 416746898
+mas "OneDrive", id: 823766827
+mas "Microsoft PowerPoint", id: 462062816
+mas "Microsoft Excel", id: 462058435
+mas "KakaoTalk", id: 869223134
+
+cask "alacritty"
+cask "appcleaner"
+cask "intellij-idea"
+cask "obsidian"
+cask "rectangle"
+cask "discord"
+cask "google-chrome"
+cask "mos"
+cask "postman"
+cask "sourcetree"
+cask "anki"
+cask "docker"
+cask "iina"
+cask "notion"
+cask "visual-studio-code"
