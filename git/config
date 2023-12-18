@@ -1,0 +1,7 @@
+[core]
+	editor = lvim
+[user]
+	name = 김덕윤
+	email = duk9741@gmail.com
+[init]
+	defaultBranch = main

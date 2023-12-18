@@ -33,6 +33,7 @@ mas "한컴오피스 한글 Viewer", id: 416746898
 mas "OneDrive", id: 823766827
 mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Excel", id: 462058435
+mas "Microsoft Word", id: 462054704  
 mas "KakaoTalk", id: 869223134
 
 cask "alacritty"
