@@ -72,6 +72,19 @@ source "$HOME/.cargo/env"
 LV_BRANCH='release-1.3/neovim-0.9' bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.3/neovim-0.9/utils/installer/install.sh)
 "export PATH=$HOME/.local/bin:\$PATH" >> ~/.zshenv
 
+# ---------------------------
+
+# jekyll을 위한 ruby 설치
+rbenv install 3.1.4 # 3.2.X 는 오류 발생
+rbenv global 3.1.4
+echo 'eval "$(/opt/homebrew/bin/rbenv init - zsh)"' >> ~/.zshrc
+ruby --version
+gem install jekyll bundler
+bundle install
+
+
+# 블로그 디렉터리 이등 ->  bundle exec jekyll serve
+
 # tmux plugin 설치
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 

@@ -1,6 +1,7 @@
 source ~/.config/zsh/source-file/pyenv.zsh
 source ~/.config/zsh/source-file/nvm.zsh
 source ~/.config/zsh/source-file/sdkman.zsh
+source ~/.config/zsh/source-file/rbenv.zsh
 # source ~/.config/lf/lf.zsh
 
 # -------------------------------------------------------

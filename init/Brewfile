@@ -4,6 +4,9 @@ brew "tmux"
 brew "neovim"
 brew "starship"
 
+# jekyll
+brew "rbenv"
+
 
 # lunarvim  의존성
 brew "xz" # tar.xz 파일 푸는 프로그램,  파이썬 설치 시 필요
