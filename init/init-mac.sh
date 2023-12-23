@@ -93,6 +93,13 @@ echo "export ZSH=\$XDG_CONFIG_HOME/oh-my-zsh" >> ~/.config/zsh/.zshenv # 설치 
 source ~/.config/zsh/.zshenv
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# dock 딜레이 줄이기
+# 속도 :  0.1  ~  0.5  사이 값 조정
+defaults write com.apple.dock autohide -bool true && defaults write com.apple.dock autohide-delay -float 0 && defaults write com.apple.dock autohide-time-modifier -float 0 && killall Dock
+# 원상 복구
+# defaults delete com.apple.dock autohide && defaults delete com.apple.dock autohide-delay && defaults delete com.apple.dock autohide-time-modifier && killall Dock
+
+
 # zshenv 설정 : zsh 설정 파일들을 ~/.config/zsh로 옮긴다
 zshenv="/etc/zshenv"
 if [ ! -e $zshenv ]; then
