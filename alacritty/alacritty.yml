@@ -17,5 +17,5 @@ font:
 env:
   TERM: xterm-256color
 
-import:
- - ~/.config/alacritty/themes/themes/one_dark.yaml
+# import:
+ # - ~/.config/alacritty/themes/one_dark.yaml
