@@ -3,6 +3,7 @@ brew "git"
 brew "tmux"
 brew "neovim"
 brew "starship"
+brew "exa"
 
 # jekyll
 brew "rbenv"
@@ -17,7 +18,6 @@ brew "rustup-init"
 # 보류
 # brew "lf"
 # brew "zoxide"
-# brew "exa"
 # brew "bat"
 # brew "fd"
 # brew "fzf"
