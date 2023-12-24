@@ -4,6 +4,8 @@ brew "tmux"
 brew "neovim"
 brew "starship"
 brew "exa"
+brew "fzf"
+brew "zoxide"
 
 # jekyll
 brew "rbenv"
@@ -17,10 +19,8 @@ brew "rustup-init"
 
 # 보류
 # brew "lf"
-# brew "zoxide"
 # brew "bat"
 # brew "fd"
-# brew "fzf"
 # brew "make"
 # brew "ripgrep"
 # brew "zsh-autosuggestions"
