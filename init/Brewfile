@@ -3,7 +3,7 @@ brew "git"
 brew "tmux"
 brew "neovim"
 brew "starship"
-brew "exa"
+brew "eza"
 brew "fzf"
 brew "zoxide"
 
