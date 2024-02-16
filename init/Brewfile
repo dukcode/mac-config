@@ -6,6 +6,10 @@ brew "starship"
 brew "eza"
 brew "fzf"
 brew "zoxide"
+brew "httpie"
+
+tap "daipeihust/tap"
+brew "im-select"
 
 # jekyll
 brew "rbenv"

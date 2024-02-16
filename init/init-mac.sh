@@ -99,6 +99,11 @@ defaults write com.apple.dock autohide -bool true && defaults write com.apple.do
 # 원상 복구
 # defaults delete com.apple.dock autohide && defaults delete com.apple.dock autohide-delay && defaults delete com.apple.dock autohide-time-modifier && killall Dock
 
+# 악센트 입력 disable
+defaults write -g ApplePressAndHoldEnabled -bool false
+# 초기화
+defaults write -g ApplePressAndHoldEnabled -bool true
+
 
 # zshenv 설정 : zsh 설정 파일들을 ~/.config/zsh로 옮긴다
 zshenv="/etc/zshenv"
