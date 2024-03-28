@@ -121,5 +121,9 @@ rm ~/.zlogout
 rm ~/.zsh_history
 rm ~/.zcompdump
 rm ~/.zsh_sessions
-echo "터미널을 재실행 해주세요"
+echo "마지막으로 oh-my-zsh로 인해 덮어씌워진 .zshrc 내용 원본으로 복사"
 read -s -n 1
+
+
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting

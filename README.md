@@ -110,6 +110,7 @@
 - 데스크탑 -  우클릭 - 스택 사용
 - 파인더 설정 -  일반 -  새로운 Finder 윈도우에서 보기 - dukcode
 - 파인더 설정 -  사이드바 - 최근 항목 체크 해제
+- 파인더 설정 -  사이드바 - dukcode 체크
 
 ## 잠금 화면
 
@@ -120,7 +121,11 @@
 
 ## 라이브 텍스트 기능 끄기
 
--  설정 -  언어 및 지역 -  라이브 텍스트 끄기
+-  설정 - 일반  -  언어 및 지역 -  라이브 텍스트 끄기
+
+## 컴퓨터 이름 변경
+
+- 설정 - 일반 - 공유 - 로컬 호스트 이름 -  "dukcode-mac"
 
 ## 게임
 
@@ -136,4 +141,25 @@ softwareupdate --install-rosetta
 brew tap apple/apple http://github.com/apple/homebrew-apple
 brew update
 brew -v install apple/apple/game-porting-toolkit
+```
+
+## ANKI
+
+- anki connect 설치 (2055492159)
+
+다음과 같이 설정 변경
+
+```json
+{
+    "apiKey": null,
+    "apiLogPath": null,
+    "ignoreOriginList": [],
+    "webBindAddress": "127.0.0.1",
+    "webBindPort": 8765,
+    "webCorsOrigin": "http://localhost",
+    "webCorsOriginList": [
+        "http://localhost",
+        "app://obsidian.md"
+    ]
+}
 ```
